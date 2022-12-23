@@ -1,0 +1,185 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        padding-top: 32px;
+        border: none;
+
+        &__input {
+            display: none;
+        } 
+    }
+
+    .logo {
+        &__img {
+            width: 99px;
+        }
+    }
+    
+    .menu {
+        display: none;
+
+        &__mobile {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+    }
+
+    .title {
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+    }
+
+    .top {
+        &__content {
+            font-size: 16px;
+            line-height: 32px;
+            text-align: center;
+        }
+
+        &__catalog {
+            background-image: url(imgcatalog/topcatalogmini.png);
+        }
+
+        &__cart {
+            background-image: url(img/topcartmini.jpg);
+        }
+    }
+    
+    .catalog__link {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .heading {
+        font-size: 24px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+
+        &__catalog {
+            font-size: 48px;
+            line-height: 59px;
+            text-align: center;
+            color: #FFFFFF;
+            padding-top: 60px;
+        }
+    }
+
+    .frame {
+        margin-top: 32px;
+        margin-bottom: 32px;
+
+        &__botton {
+            margin-bottom: 16px;
+        }
+
+        &__btn {
+            font-size: 14px;
+            line-height: 32px;
+        }
+    }
+
+    .select select {
+        font-size: 14px;
+        line-height: 17px;  
+    }
+
+    .for {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+
+        &__item {
+            grid-column: 1 / -1;
+            height: 375px;
+            font-size: 28px;
+            line-height: 34px;
+            &_big {
+                height: 244px;
+            }
+        }
+    }
+
+    .product {
+        &__name {
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        &__price {
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        &-box {
+            padding-top: 48px;
+        }
+    }
+
+    .about {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .footer {
+        margin-top: 32px;
+        
+        &__info {
+            gap: 100px;
+            padding-bottom: 32px;
+        }
+
+        &__menu {
+            font-size: 24px;
+            line-height: 29px;
+        }
+
+        &__content {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .cart {
+        justify-items: start;
+
+        &__item {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        &__name-box {
+            display: none;
+        }
+
+        &__img {
+            display: none;
+        }
+
+        &__product-name {
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        &__product-about {
+            font-size: 12px;
+            line-height: 15px;
+        }
+
+        &__form {
+            width: 343px;
+        }
+    }
+
+    .btn__cart {
+        width: 166px;
+        height: 37px;
+    }
+}
+
